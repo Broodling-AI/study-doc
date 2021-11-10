@@ -1,0 +1,10 @@
+1、以下命令在DOS窗口登录,回车输入root密码：
+mysql –u root –p
+
+
+2、MySQL Command Line Client 登录仅需输入root密码
+
+
+
+
+

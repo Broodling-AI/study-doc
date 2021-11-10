@@ -1,0 +1,16 @@
+﻿DROP TABLE IF EXISTS `demo01`;
+#创建表
+CREATE TABLE IF NOT EXISTS `demo01`(
+   `id` INT(10) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+   `name` VARCHAR(8) NOT NULL
+);
+#修改表名
+ALTER TABLE `demo01` RENAME `demo02`;
+#添加字段
+ALTER TABLE demo02 ADD `password` VARCHAR(32) NOT NULL;
+#修改字段
+ALTER TABLE demo02 CHANGE `name` `username`CHAR(10) NOT NULL;
+#删除字段
+ALTER TABLE demo02 DROP `password`;
+
+

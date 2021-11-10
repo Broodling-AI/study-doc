@@ -1,0 +1,11 @@
+/*使用mysql命令恢复数据库(此语句在DOS环境执行，先创建schoolDB表后执行)-*/
+mysql –u root –p schoolDB < d:\backup\myschool_20160808.sql
+
+
+/*--source命令恢复数据库--*/
+CREATE DATABASE myschoolDB2;
+USE myschoolDB2;
+/*--恢复数据库--*/
+source d:\backup\myschool_20160808.sql
+
+

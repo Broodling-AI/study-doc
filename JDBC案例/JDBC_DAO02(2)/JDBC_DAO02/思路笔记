@@ -1,0 +1,7 @@
+.DAO模式；可以理解成编程的一种套路；
+
+1.创建StudentDao接口，定义登录方法；
+2.创建studentDaoImpl实现类,实现StudentDAO接口定义的登录方法
+3.在StudentDaoImpl类里面的登录方法里面 做具体的数据库登录的操作
+4.在测试类输入用户名和密码，调用数据访问层dao的login()方法，得到返回的结果做业务处理;
+

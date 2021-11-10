@@ -1,0 +1,3 @@
+ HELP Data Type;
+ HELP Double;
+ HELP CREATE TABLE;

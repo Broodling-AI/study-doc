@@ -1,0 +1,31 @@
+# yml格式配置文件  空格是关键
+
+#设置端口号
+server:
+  port: 9010
+  servlet:
+    context-path: /demo
+
+
+name: zjr
+teacher:
+  name: zjr
+  age: 300
+  gender: 男
+
+teacher1: {name: cxl, age: 18, gender: 女}
+
+person:
+  user-Name: 张三
+  age: 20
+  list:
+    - a
+    - b
+    - c
+  setList: [d, e, f]
+  maps: {key1: value1, key2: value2}
+
+# 开发环境  开发人员用的环境
+# 测试环境  测试人员用的
+# 预生产:   没有正式上线, 但接近上线,模拟正式环境用的
+# 生产环境:  正式上线后的环境

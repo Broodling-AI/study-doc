@@ -1,0 +1,1 @@
+mysqldump ¨Cu root ¨Cp myschool student > d:\backup\myschool_20160808.sql

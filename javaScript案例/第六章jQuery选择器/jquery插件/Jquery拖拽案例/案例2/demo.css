@@ -1,0 +1,31 @@
+*{margin: 0;padding: 0;}
+.one,.two,.three,.free{
+    width: 300px;
+    height: 200px;
+   /* position: absolute;*/
+    margin: 20px;
+}
+.one{
+	background-color: red;
+}
+.two{
+	background-color:cornflowerblue;
+}
+.three{
+	background-color: yellow;
+}
+.free{
+	background-color: green;
+}
+.boxList{
+    border: 1px solid #ff0033;
+    height: 500px;
+    margin: 30px;
+    position: relative;
+    width: 700px;
+}
+.div9{
+    float: left;
+}
+
+

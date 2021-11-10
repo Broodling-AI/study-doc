@@ -1,0 +1,30 @@
+#divFrame{
+	width: 300px;
+	height:180px;
+	border: solid 1px #666;
+}
+.cal{
+	height: 200px;
+}
+h3{
+	display: inline;
+}
+.clsHead{
+	background-color:#eee;
+	height: 28px;
+}
+.clsHead span{
+	float: right;
+	margin-top: 10px;
+}
+.clsContent li{
+	float: left;
+	line-height: 23px;
+	margin-left: 10px;
+	list-style: none;
+}
+.claBot{
+	/*background-color: aquamarine;*/
+	clear: left;
+	float: right;
+}

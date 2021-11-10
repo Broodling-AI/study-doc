@@ -1,0 +1,12 @@
+DOS命令行下执行以下指令登录,root密码为root
+mysql -u root -proot
+MySQL Command Line Client下直接输入root密码
+
+
+
+#创建MySQL数据库
+CREATE DATABASE myschool;
+#查看数据库
+SHOW DATABASES;
+#删除数据库
+DROP myschool;

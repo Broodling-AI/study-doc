@@ -1,0 +1,11 @@
+/*-备份myschool数据库的学生表和成绩表(此语句在DOS环境执行)-*/
+mysqldump -uroot -p -c myschool student result >d:\ex\myschool_20160808.sql
+
+/*-使用mysql命令还原学生表、成绩表到schoolDB数据库(此语句在DOS环境执行，先创建schoolDB表后执行)-*/
+mysql -uroot -p schoolDB < d:\ex\myschool_20160808.sql
+
+/*-使用source命令还原学生表、成绩表到schoolDB数据库(此语句在mysql命令行下执行-*/
+CREATE DATABASE schoolDB;
+USE schoolDB;
+schoolDBresult
+source d:\back\myschool_20160808.sql
